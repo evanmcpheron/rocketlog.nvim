@@ -30,7 +30,7 @@ A Neovim plugin for **fast, structured debug logging** in JavaScript and TypeScr
 | [Dashboard guide](./docs/DASHBOARD.md)             | Dashboard layout, keybindings, filters, folds, toggles       |
 | [Configuration reference](./docs/CONFIGURATION.md) | Every setup option and practical examples                    |
 | [Troubleshooting](./docs/TROUBLESHOOTING.md)       | Common issues, warnings, and fixes                           |
-| [Media guide](./docs/assets/README.md)             | Screenshot and GIF placeholders to replace before release    |
+| [Media guide](./docs/assets/README.md)             | Screenshots, GIF demos, and capture guidance                  |
 | [Contributing](./CONTRIBUTING.md)                  | Dev setup, tests, and contribution expectations              |
 
 ---
@@ -57,17 +57,7 @@ const fullName = user.profile.name;
 console.log(`🚀[ROCKETLOG] ~ user.ts:2 ~ fullName:`, fullName);
 ```
 
-> **Media placeholder — hero GIF**
->
-> Add a short GIF here showing:
->
-> 1. opening a TypeScript file,
-> 2. inserting a log with `<leader>rL`,
-> 3. saving the file,
-> 4. opening the dashboard with `<leader>rr`,
-> 5. pressing `?` to open the help modal.
->
-> Suggested filename: `docs/assets/hero-overview.gif`
+![Open a TypeScript file, insert a RocketLog, save, and open the dashboard and help modal](./docs/assets/hero-overview.gif)
 
 ---
 
@@ -199,6 +189,10 @@ The dashboard is the plugin’s command center. It groups logs by file, shows a 
 See [Dashboard guide](./docs/DASHBOARD.md) for the full walkthrough.
 
 ![RocketLog dashboard overview](./docs/assets/dashboard-overview.png)
+
+Press `?` in the dashboard to open the full keybinding reference.
+
+![RocketLog dashboard help modal](./docs/assets/dashboard-help-modal.png)
 
 ## Configuration
 
