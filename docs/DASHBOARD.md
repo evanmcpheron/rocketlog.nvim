@@ -30,18 +30,9 @@ The dashboard opens as a floating UI with multiple panes:
 - **Preview pane** showing surrounding source lines
 - **Help modal** on `?` for the full keybinding reference
 
-> **Media placeholder — dashboard anatomy screenshot**
->
-> Add a screenshot with callouts or annotations for:
-> - header,
-> - list,
-> - help,
-> - preview,
-> - folded file group,
-> - commented log marker,
-> - stale log marker.
->
-> Suggested filename: `docs/assets/dashboard-anatomy.png`
+![Annotated RocketLog dashboard showing its overview, grouped log list, source preview, and keybinding panes](./assets/dashboard-anatomy.png)
+
+The numbered labels identify **1. Overview**, **2. Logs**, **3. Preview**, and **4. Keybindings**. In the list, `▸` marks the folded `tasks.ts` group, `[off]` marks a commented log, and `*` marks the stale entry in `account.ts`.
 
 ---
 
@@ -157,15 +148,7 @@ File-wide toggle follows this rule:
 
 This is handy when you want to temporarily quiet a file without deleting the instrumentation.
 
-> **Media placeholder — comment toggle GIF**
->
-> Add a GIF showing:
-> - selecting a log,
-> - pressing `c`,
-> - pressing `c` again,
-> - then pressing `C` on a file group.
->
-> Suggested filename: `docs/assets/dashboard-comment-toggle.gif`
+![Toggle a selected log off and on with c, then press C and confirm to comment every log in the file](./assets/dashboard-comment-toggle.gif)
 
 ---
 
@@ -262,11 +245,7 @@ or
 
 When it closes, focus returns to the dashboard list.
 
-> **Media placeholder — help modal screenshot**
->
-> Add a screenshot showing the help modal open over the dashboard.
->
-> Suggested filename: `docs/assets/dashboard-help-modal.png`
+![The help modal open over the RocketLog dashboard](./assets/dashboard-help-modal.png)
 
 ---
 

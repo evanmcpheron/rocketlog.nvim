@@ -194,17 +194,6 @@ The dashboard also marks **stale** entries so you can spot logs that no longer m
 - [Dashboard guide](./DASHBOARD.md)
 - [Configuration reference](./CONFIGURATION.md)
 
-> **Media placeholder — motion logging GIF**
->
-> Add a GIF showing:
-> - `<leader>rliw`,
-> - `<leader>rla{`,
-> - the resulting inserted logs.
->
-> Suggested filename: `docs/assets/motion-logging.gif`
+![Log an inner word with <leader>rliw and a complete object with <leader>rla{](./assets/motion-logging.gif)
 
-> **Media placeholder — stale label screenshot**
->
-> Add a screenshot showing at least one stale dashboard entry with the stale marker visible.
->
-> Suggested filename: `docs/assets/stale-entry.png`
+![A dashboard entry marked stale with an asterisk because its embedded line number no longer matches its source location](./assets/stale-entry.png)

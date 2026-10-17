@@ -1,12 +1,12 @@
 # Media guide
 
-This file tracks the screenshots and GIFs that should be added.
+This directory contains the screenshots and GIFs embedded in the project documentation.
 
-Use the placeholders in `README.md` and `docs/*.md` as insertion points.
+The GIFs show real RocketLog workflows in an isolated Neovim session. Key captions use Space as `<leader>`; the dashboard comment demo includes the confirmation for the file-wide action.
 
-## Recommended media checklist
+## Included media
 
-| Suggested file                 | Type       | Where it belongs                 | What it should show                                              |
+| File                           | Type       | Used in                          | What it shows                                                    |
 | ------------------------------ | ---------- | -------------------------------- | ---------------------------------------------------------------- |
 | `hero-overview.gif`            | GIF        | `README.md`                      | Open a file, insert a log, save, open dashboard, open help modal |
 | `dashboard-overview.png`       | Screenshot | `README.md`                      | Entire dashboard with header, list, footer, preview              |
@@ -16,7 +16,7 @@ Use the placeholders in `README.md` and `docs/*.md` as insertion points.
 | `motion-logging.gif`           | GIF        | `docs/USAGE.md`                  | Motion-based insertion examples                                  |
 | `stale-entry.png`              | Screenshot | `docs/USAGE.md`                  | Dashboard entry marked stale                                     |
 | `dashboard-anatomy.png`        | Screenshot | `docs/DASHBOARD.md`              | Annotated or clearly framed dashboard panes                      |
-| `dashboard-comment-toggle.gif` | GIF        | `docs/DASHBOARD.md`              | Toggle one log with `c`, then whole file with `C`                |
+| `dashboard-comment-toggle.gif` | GIF        | `docs/DASHBOARD.md`              | Toggle one log with `c`, then use `C` and confirm with `y`       |
 
 ---
 

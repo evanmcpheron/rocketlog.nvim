@@ -207,18 +207,6 @@ If the selected range is in a function signature instead of the body, RocketLog 
 - Read [Dashboard guide](./DASHBOARD.md)
 - Read [Configuration reference](./CONFIGURATION.md)
 
-> **Media placeholder — first run screenshot**
->
-> Add a screenshot showing a simple TypeScript file with one inserted RocketLog and the cursor positioned on the logged variable.
->
-> Suggested filename: `docs/assets/first-log.png`
+![A TypeScript file with a RocketLog inserted below fullName and the cursor on the logged variable](./assets/first-log.png)
 
-> **Media placeholder — getting started GIF**
->
-> Add a GIF showing:
-> - `<leader>rL` on a variable,
-> - `<leader>rliw` on another token,
-> - `<leader>rr` to open the dashboard,
-> - `?` to open the help modal.
->
-> Suggested filename: `docs/assets/getting-started.gif`
+![Insert logs with word and motion mappings, then open the dashboard and help modal](./assets/getting-started.gif)
